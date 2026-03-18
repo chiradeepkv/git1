@@ -1,1 +1,1 @@
-console.log("welcome to my web");
+console.log("welcome to my web app");
