@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Welcome</title>
-    <style>
-        body {
-            font-family: Arial;
-            text-align: center;
-            margin-top: 100px;
-        }
-        h1 {
-            color: blue;
-        }
-    </style>
-</head>
 <body>
-    <h1>Welcome </h1>
-    <p>This is my first website</p>
+
+<h2>GET Idea</h2>
+
+<p>JavaScript can change HTML attribute.</p>
+
+<p>In this case JavaScript changes the value of the src (source) image.</p>
+
+<button onclick="document.getElementById('myImage').src='giphy.gif'">Turn on the light</button>
+
+<img id="myImage" src="original-d614b031798e74ea55deb4ea492d1a05.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='source.gif'">Turn off the light</button>
+
 </body>
 </html>
